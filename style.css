@@ -262,6 +262,7 @@ body {
 
 .card article .area ul li .bar.percent-100:before {
   width: 280px;
+  
 }
 .card article .area ul li .bar.percent-90:before {
   width: 260px;

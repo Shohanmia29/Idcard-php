@@ -20,13 +20,13 @@
 <body class='bg-grid-line'>
 <div class='card'>
   <header>
-    <h1>Skills</h1>
+    <h1>ID Card Generator</h1>
   </header>
   <article>
     <img alt='My Pic'  src='<?php if(isset($upload)){echo $path;};?>'>
-    <h2>Id Card</h2>
+    <h2>Your ID Card</h2>
     <div class='area'>
-      <h3>Your Card</h3>
+      <h3>My Name is :<?php if(isset($user_name)){echo $user_name;};?></h3>
       <ul>
         <li>
           Name :
